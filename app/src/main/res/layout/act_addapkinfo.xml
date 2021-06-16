@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="获取信息"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18" />
+
+    <Button
+        android:id="@+id/install_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="安装"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18" />
+
+    <TextView
+        android:id="@+id/textApkInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18" />
+</LinearLayout>
